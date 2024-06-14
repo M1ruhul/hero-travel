@@ -1,0 +1,47 @@
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 90%;
+    margin: auto;
+}
+/* end primary style  */
+
+/* header style  */
+
+.header{
+    width: 100%;
+    background-color: white;
+}
+.header-div{
+    padding: 30px 0px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerOne{
+    display: flex;
+    gap: 10px;
+}
+/* .header-logo{
+    margin-left: 10px;
+} */
+
+.headerTwo > ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.headerTwo > ul > li{
+    cursor: pointer;
+
+}
+.headerTwo > ul > li:hover {
+    color: orange;
+}
+
+/* header style  */
